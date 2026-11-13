@@ -1,0 +1,2 @@
+# Optional local feasibility tools, separate from the original PDF prototype.
+pypandoc_binary==1.17

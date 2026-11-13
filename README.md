@@ -1,6 +1,17 @@
 # Book Revival
 
-Old stories, comfortable modern reading. A Telugu-first, local conversion toolkit and restoration roadmap for scanned storybooks.
+Old stories, comfortable modern reading. A Telugu-first conversion toolkit growing toward a private PDF/DOC/DOCX upload service with downloadable EPUBs for Android and other readers.
+
+## Researched product and AWS direction
+
+- [Open-source comparison and recommended engines](docs/OPEN_SOURCE_RESEARCH.md)
+- [Upload experience, enhancements, and Android requirements](docs/UPLOAD_PRODUCT.md)
+- [Quality benchmark and engine selection plan](docs/BENCHMARK_PLAN.md)
+- [AWS deployment architecture and cost assumptions](docs/AWS_ARCHITECTURE.md)
+- [Beginner guide to a personal AWS account and local login](docs/AWS_FIRST_ACCOUNT.md)
+- [DOCX adapter feasibility result](docs/PILOT_RESULTS.md) and [local experiment](experiments/README.md)
+
+The current implementation is local. The public upload application, Android device validation, and AWS deployment are not completed. The proposed service combines Docling/Tesseract for PDF reconstruction, Pandoc for structured Word/EPUB conversion, and EPUBCheck for validation. Existing engines and models have distinct licenses; see the comparison before choosing the hosted product's dependency stack.
 
 ## Working prototype
 
